@@ -1,8 +1,9 @@
 $( "#Myconvert" ).click(function() {
+
   let uid2guid = function(uid) {
-    if (!uid) {
-      return;
-    }
+    // if (!uid) {
+    //   return;
+    // }
    
     let steamId = bigInt(uid);
    
@@ -16,6 +17,7 @@ $( "#Myconvert" ).click(function() {
    
     let wordArray = CryptoJS.lib.WordArray.create(new Uint8Array(parts));
     let hash = CryptoJS.MD5(wordArray);
+    Console.log(hash);
     return hash.toString();
    };
    

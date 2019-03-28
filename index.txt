@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>UID to GUID converter</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/custom.js"></script> 
+ </head>
+ <body>
+<div class="mainbg">
+    <div class="form-input">
+   
+    
+    <input id="uid" type="text" class="inputoutput" value="76561198284694322" placeholder="Enter UID" >
+    </div>
+
+    
+    <div class="form-input">
+    <input id="guid" type="text" class="inputoutput" placeholder="" readonly="">
+  
+</div>
+<div><button type="button" id="Myconvert"  class="btn btn-primary">Convert
+        
+</button>
+</div>
+</div>
+</body>
